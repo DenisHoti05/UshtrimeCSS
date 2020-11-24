@@ -1,0 +1,30 @@
+#div1{background:red;
+	  width:200px;
+	  height:200px;
+	  transition-property:width 12s,height 7s,background 10s;
+	  transition-duration:2s;
+	  transition-timing-fuction:ease;
+							  /*ease-in*/
+							  /*ease-out*/
+							  /*linear*/
+	   transition-delay:2s;}
+#div1:hover{width:900px;
+			height:900px;
+			background-color:blue;}
+#div2{background:red;
+	  width:200px;
+	  height:200px;
+	  transition:4s;
+	  font-size:30px;
+	  transition-timing-fuction:ease;
+	  transition-delay:10s;}
+#div2:hover{width:500px;
+			height:500px;
+			font-size:80px;}
+#div3{background:red;
+	  width:200px;
+	  height:200px;
+	  transition:5s,easy,5s;}
+#div3:hover{width:400px;
+			height:400px;
+			font-size:80px;}

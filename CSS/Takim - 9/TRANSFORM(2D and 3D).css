@@ -1,0 +1,56 @@
+#div1{border:1px solid black;
+	  width:300px;
+	  height:300px;
+	  transition:9s;
+	  background-color:red;}
+#div1:hover{width:500px;
+			height:500px;
+			transform:translate(300px,300px); /*transform na mundeson qe ta transformojme nje objekt nga nje menyr ne tjetren*/
+			background-color:blue;}
+#div2{border:1px solid black;
+	  width:300px;
+	  height:300px;
+	  transition:7s;
+	  background-color:yellow;
+	  transform:translate(450px,300px);}/*me transform translate na mundeson ta largojme nje objekt nga pozita fillestare*/
+#div3{border:1px solid black;
+	  width:300px;
+	  height:300px;
+	  transition:7s;
+	  background-color:yellow;
+	  transform:rotate(-360deg);} /*me rotate ne mundemi qe ta bejme rotate nje veti*/
+#div4{border:1px solid black;
+	  width:100px;
+	  height:150px;
+	  transition:7s;
+	  background-color:yellow;
+	  transform:scale(3,2); /*me scale ne mund ta rrisim gjatesin e divit*/
+	  margin:200px;}
+#div5{border:1px solid black;
+	  width:500px;
+	  height:300px;
+	  transition:7s;
+	  background-color:yellow;
+	  transform:scale(0.5,0.7); /*keshtu mund qe ta zvogelojme madhesin e divit*/
+	  margin:200px;}
+#div6{border:1px solid black;
+	  width:300px;
+	  height:200px;
+	  transition:7s;
+	  background-color:yellow;
+	  transform:skewX(-60deg);
+	  margin:200px;}
+#div7{border:1px solid black;
+	  width:300px;
+	  height:200px;
+	  transition:7s;
+	  background-color:yellow;
+	  transform:skewY(60deg);
+	  margin:200px;}
+#div8{border:1px solid black;
+	  width:300px;
+	  height:200px;
+	  transition:7s;
+	  background-color:yellow;
+	  transform:skew(30deg,30deg);
+	  margin:200px;}

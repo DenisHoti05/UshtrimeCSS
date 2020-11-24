@@ -1,0 +1,9 @@
+#p1{margin:5px 10px 20px 30px;}/*marginin mund ta bejme te gjitha bashk*/
+#p2{border:1px solid black;
+	box-sizing:border-box;
+	padding:50px;
+	width:300px}/*siq shihet kjo ben border dhe nuk rrit widthin e tij*/
+#p3{border:1px solid black;
+	box-sizing:content-box
+	padding:50px;
+	width:300px}/*kurse kjo siq shihet e rrit edhe ate*/

@@ -1,0 +1,24 @@
+#div1{border:1px solid black;
+	  width:100px;
+	  height:100px;
+	  text-overflow:clip;		/*clip e perdorim kur kemi me shume tekst se sa divi ai hiqet */
+	  overflow:hidden;}
+#div2{border:1px solid black;
+	  width:100px;
+	  height:100px;
+	  text-overflow:ellipsis;		/*ellipsis e perdorim kur kemi me shum tekst sesa divi ajo vendos 3pika*/
+	  overflow:hidden;}
+#div3{border:1px solid black;
+	  width:100px;
+	  height:100px;
+	  word-wrap:break-word;}				/*break-word e perdorim per ti vendosur fjalet njera pas tjetres*/
+#div4{border:1px solid black;
+	  width:100px;
+	  height:120px;
+	  word-break:break-all;}					/*me kete ne mund fjalet me te gjata i le ne gjysme dhe i vazhdon poshte*/
+#div5{border:1px solid black;
+	  width:100px;
+	  height:120px;
+	  word-break:keep all;}							/*me kete ne mund fjalet me te gjata nuk i vazhdon poshte por i ve te gjitha poshte komplet*/				
+#p1{writing-mode:horizontal-tb;}					/*me kete e vendosim tekstin horizontalisht*/
+#p2{writing-mode:vertical-lr;}						/*me kete e vendosim tekstin vertikalisht*/

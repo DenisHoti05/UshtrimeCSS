@@ -1,0 +1,33 @@
+				/*PSEUDOCLASS*/
+#a1:link{color:red}/* kete mund ta vendosim ne paragraf ose link ose qfaredo tjetre qe kur ta shikojm t; duket ashtu si ia caktojme*/
+#a1:visited{color:blue}/*kjo ia nderron elementit ngjyren pasi te klikohet*/
+#a1:hover{color:orange}/*me kete ia ndryshojme elementit te pasi kalojme me maus mbi te*/
+#a1:active{color:red}/*gjate  klikimit  i nderrohet ngjyra*/
+input:focus{color:blue;
+			background-color:BLUE;}/*kete ia vendosim input per tia ndryshuar ato pasi i klikojme*/
+#div1{border:1px solid black;
+			 width:600px;
+			 height:300px}/**/
+div p:first-child{color:red;
+				  font-size:25px;}/*kjo ia ndryshon brenda femijen e pare*/
+div p:last-child{color:blue;
+				  font-size:20px;}/*kjo ia ndryshon femijes se fundit*/
+#input1:checked{width:100px;
+				height=100px}/**/
+#input2:disabled{color:red;}	/**/
+#p1:hover{font-size:30px;
+			color:red;}			/*me kete ne ia ndryshojme kur i kemi mausin mbi te*/
+:not(#p){color:red}/* kur nje elementi nuk duam ti ndryshojme ato gjera*/
+:root{background-color:yellow;}/* i ndryshohet vetem elementit te perkatshem*/
+a:target{color:blue}/* i ndryshohet vetem targetit*/
+					/*PSEUDOELEMENTS*/
+p::after{content:"-Gjilan"}		/* me kete ne mund tia shtojm nje paragrafi ose disa paragrafeve pas nje fjale ose edhe fjali*/	
+#p2::after{content:"-Ferizaj"}	/* me kete ne mund tia shtojm nje paragrafi ose disa paragrafeve pas nje fjale ose edhe fjali edhe me id*/	
+p::before{content:"Gjilan-"}	/* me kete ne mund tia shtojm nje paragrafi ose disa paragrafeve para nje fjale ose edhe fjali*/
+#p4::before{content:"Mitrovice-"}	/* me kete ne mund tia shtojm nje paragrafi ose disa paragrafeve para nje fjale ose edhe fjali edhe me id*/
+#p6::first-line{color:blue;
+`				 font-variant:small-caps;} /* rreshtit te pare te nje teksti mund tia ndryshojme ngjyren ose edhe shkronjat*/
+#p6::first-letter{color:blue;
+				  font-size:30px;}     /* shkronjes se pare ia ndryshojme disa veti*/
+p::selection{color:red;
+			 background-color:green;}		/* ne mund tia ndryshojme edhe kur e selektojme ngjyren dhe ngjyren bakground*/		

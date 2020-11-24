@@ -1,0 +1,140 @@
+#div1{border:1px solid black;
+	  width:300px;
+	  height:300px;
+	  position:static;}/*static eshte ashtu si e leme elementin*/
+#div2{border:1px solid black;
+	  width:300px;
+	  height:300px;
+	  position:relative;/* relative kur deshirojme ta largojme nga pika ku gjendet.*/
+	  top:0px;
+	  left:0px;}
+#div3{border:1px solid black;
+	  width:300px;
+	  height:300px;
+	  position:absolute;/*abdolute perdoret kur deshirojme ta largojme largohet nga pika me e larte e webfaqes*/
+	  top:50px;
+	  left:300px;}
+#div4{border:1px solid black;
+	  width:300px;
+	  height:300px;
+	  position:fixed;/*fixed perdoret shume perdoret kur deshirojme qe nje div ose me shpesh headeri te levize me scrollin*/
+	  top:300px;
+	  left:300px;}
+	  /*<style>
+	#div1{
+		  border:1px solid black;
+		  width:1200px;
+		  height:1480px;}
+	#position1{ position:fixed;
+				top:-10px;
+				z-index:10;}
+	#div2{
+		  border:1px solid black;
+		  width:1198px;
+		  height:198px;
+		  background-image:url("skyblue.jpg");}	 
+	#h1	{
+		 font-size:100px;
+		 color:white;}		  
+	#div3{
+		  border:1px solid black;
+		  width:238px;
+		  height:58px;
+		  float:right;}
+	#b1 {
+	    border:1px solid black;
+		  width:238px;
+		  height:58px;
+		  background-color:lightgray;}
+	#b2 {
+	    border:1px solid black;
+		  width:238px;
+		  height:58px;
+		  background-color:lightgray;}	  
+	#position{position:relative;
+			  top:240px;
+			  z-index:5;}
+	#div4{
+		  border:1px solid black;
+		  width:478px;
+		  height:198px;
+		  float:right;
+		  }	
+	#div5{
+		  background-color:white;
+		  border:1px solid black;
+		  width:718px;
+		  height:198px;
+		  float:left;
+		  background-color:lightgray;
+		  }	
+		#h4	{;
+		 color:black;
+		 background-color:lightgray;
+		 }		 	  
+	#div6{
+		  border:1px solid black;
+		  width:478px;
+		  height:158px;
+		  float:right;
+		  background-color:lightgray;}		
+	#h2	{;
+		 color:black;
+		 background-color:lightgray;
+		 }		 	  	  
+	#div7{
+		  border:1px solid black;
+		  width:718px;
+		  height:398px;
+		  float:left;
+		  background-color:lightgray;}
+	#h3	{;
+		 color:black;
+		 background-color:lightgray;
+		 }		 		  
+	#div8{
+		  border:1px solid black;
+		  width:1198px;
+		  height:218px;
+		  float:left;
+		  background-image:url("black.jpg");}	
+	#b6		{margin-left:500px;
+			margin-top:100px;
+			 width:90px;
+			 height:60px;
+			 background-color:papayawhip;}
+	#b7		{margin-left:250px;
+			margin-top:100px;
+			 width:90px;
+			 height:60px;
+			 background-color:papayawhip;}
+`	  
+	</style>
+	</head>
+	<body>
+	<div id="div1">
+	<div id="position1">
+	<div id="div2"><h1 id="h1">telegrafi.com</h1></div>
+	<div id="div3"><a href="magazina.html"><button id="b1">MAGAZINA</button></a></div>
+	<div id="div3"><a href="sport.html"><button id="b2">SPORT</button></a></div>
+	<div id="div3"><a href="ekonomi.html"><button id="b2">EKONOMI</button></a></div>
+	<div id="div3"><a href="lajme.html"><button id="b2">LAJME</button></a></div>
+	<div id="div3"><a href="zgjedhjet2019.html"><button id="b2">ZGJEDHJET-2019</button></a></div>
+	</div>
+	<div id="position">
+	<div id="div4"><a href="https://gjirafa50.com/promovime/halloween-2019?utm_source=GjirafaAdNetwork&utm_medium=banner&utm_campaign=halloween"><img src="reklama.jpg" width="478px" height="198px" alt="Reklame"></a></div>
+	<div id="div5"><a href="page-1_0.html"><img src="kadrikastrati.jpg" width="718px" height="160px" alt="Kadri Kastrati"><h3 id="h4">Ish-komandanti i FSK-së, Kadri Kastrati ftohet nga Gjykata Speciale</h3></a></div>
+	<div id="div6"><a href="page-4_0.html"><h2 id="h2">Pas takimit mes presidentit turk Erdogan dhe zëvendëspresidentit amerikan Pence, arrihet marrëveshja e armëpushimit në Siri</h2></a></div>
+	<div id="div7"><a href="page-2_0.html"><img src="sporti.jpg" width="718px" height="330px" alt="Muriqi ne ekipin Fenerbahqe"><h3 id="h3">Ekskluzive: Fenerbahce e dashuruar në futbollistët e Kosovës, legjenda e tyre ishte në Prishtinë për ta parë nga afër yllin e Dardanëve</h3></a></div>
+	<div id="div6"><a href="page-5_0.html"><h2 id="h2">Jo vetëm Man United e Tottenham, edhe një skuadër angleze në garë për Vedat Muriqin</h2></a></div>
+	<div id="div6"><a href="page-6_0.html"><h2 id="h2">Ruajnë trurin dhe ulin shtypjen e gjakut: Keta artikuj pengojnë sulmin në zemër!</h2></a></div>
+	<div id="div7"><a href="page-3_0.html"><img src="magazina1.jpg" width="718px" height="335px" alt="Nora Istrefi"><h2 id="h3">Nora Istrefi mahnit me dukjen e saj</h2></a></div>
+	<div id="div6"><a href="page-7_0.html"><h2 id="h2">Haradinaj: Vuçiq, Thaçi e Rama kishin planin prej 10 miliarde eurosh për ndarjen e Kosovës, unë i pengova</h2></a></div>
+	<div id="div6"><a href="page-8_0.html"><h2 id="h2">Kryetari i OVL UÇK-së: Këtë muaj presim të kemi 4-5 ftesa në ditë nga Gjykata Speciale</h2></a></div>
+	<div id="div8">
+	<a href="infoautori.html"><button id="b7">INFO</button>
+	<a href="login.html"><button id="b6">Shto lajme</button></a>
+	</div>
+	</div>
+		
+	</div>*/

@@ -1,0 +1,25 @@
+#ol1{list-style-type:decimal;}/*me kete e caktojme stilin e listave me numra decimal*/
+#ol2{list-style-type:lower-alpha;}/*me kete e caktojme stilin e listave me shkronja te vogla alpha*/
+#ol3{list-style-type:upper-alpha;}/*me kete e caktojme stilin e listave me shkronja te medha alpha*/
+#ol4{list-style-type:lower-roman;}/*me kete e caktojme stilin e listave me shkronja te vogla romake*/
+#ol5{list-style-type:upper-roman;}/*me kete e caktojme stilin e listave me shkronja te medha romake*/
+#ol6{list-style-type:none;}/*me kete e caktojme pa asnje lloj stili*/
+ol{list-style-position:inside;}/*me kete pozicioni i listave del edhe brenda numrit*/
+#ol1{list-style-position:outside;}/*me kete pozicioni i listave nuk del edhe brenda numrit*/
+#ol7{list-style-image:url("icon.png")}/*me kete i vendosim nje icon brenda nje liste*/ 
+ol{background-color:red;}/*me kete i caktojme ngjyren background listave*/
+li{	color:blue;
+	background-color:red;
+	margin:20px;}/**/
+#li1:hover{color:green;
+			background-color:yellow;
+			font-size:30px;}
+#ol10{list-style-type:none;}
+#li10{padding:0px;
+		margin:0px;
+		background-color:white;
+		}
+#ol10{padding:0px;
+		margin:0px;
+		background-color:white;
+		}

@@ -1,0 +1,58 @@
+#p1{border-style:solid;
+	border-width:8px;
+	border-color:#FFFF09;}
+#p2{border-style:dashed;
+	border-width:2CM;
+	border-color:#MMF09;}
+#p3{border-style:double;
+	border-width:`1%;
+	border-color:#FF0000;}
+#p4{border-style:dotted;
+	border-width:8px;
+	border-color:#FFFF09;}
+#p5{border-style:ridge;
+	border-width:thin;
+	border-color:#FFFF09;}
+#p6{border-style:groove;
+	border-width:medium;
+	border-color:#FFFF09;}
+#p7{border-style:inset;
+	border-width:thick;
+	border-color:#FFFF09;}
+#p8{border-style:outset;
+	border-width:8px;
+	border-color:#FFFF09;}
+#p9{border-style:solid dotted dashed double;
+	border-width:7px 15px 10px 20px;
+	border-color:#F00;}
+#p10{border-style:solid;
+	border-width:4px;
+	border-color:#F00;}
+#p11{border-style:solid;
+	border-width:7px 15px;
+	border-color:#F00;}
+#p12{border-style:solid;
+	border-width:5px 10px 15px;
+	border-color:#F00;}
+#p13{border-style:solid;
+	border-width:5px 10px 15px;
+	border-color:#F00 #FFFF00 #AAFF12 #BBBB00;}
+#p14{border-bottom:7px solid blue;}
+#p15{border-top:19px double #AAFF12;}
+#p16{border-style:solid;
+	border-radius:20px 10px 5px 0px;
+	border-width:8px;
+	border-color:#FFFF09;}
+#p17{border-style:solid;
+	border-radius:0px 0px 0px 20px;
+	border-width:8px;
+	border-color:#FFFF09;}
+	/*kemi 8 lloje te style:
+				solid
+				dashed
+				double
+				dotted
+				ridge
+				groove
+				inset
+				outset*/

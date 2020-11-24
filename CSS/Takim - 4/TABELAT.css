@@ -1,0 +1,30 @@
+table,td{border:1px solid black;}/**/
+#table1:hover{background-color:red;}
+#table1{width:300px;
+	  height:300px;
+		border-collapse:collapse;}
+#table2{width:300px;
+		height:300px;
+		border-collapse:seperate;}
+#table2:hover{background-color:red;}
+.td2:hover{background-color:#FFFF00;}
+.td1{text-align:center;
+	 vertical-align:middle;}
+.td2{text-align:center;
+	 vertical-align:bottom;}
+#div1{border:10px silid gray;
+	 overflow:auto;/*me overflow mund ta caktojme */
+	 width:400px;
+	 height:400px;
+	 float:right;
+	 padding-right:400px;
+	 padding-top:70px;}
+/*#table4:hover{background-color:red;}*/
+#table4{width:300px;
+	  height:300px;
+		border-collapse:collapse;}
+/*.td4:hover{background-color:#FFFF00;}*/
+.td4{text-align:center;
+	 vertical-align:middle;
+	 border-bottom:1px;}
+.tr1:nth-child(odd) {background-color:#FFFF00}/*me kete ne mund tia bejme numrat tek me ngjyr; kurse me "even" i bejme numrat qift*/

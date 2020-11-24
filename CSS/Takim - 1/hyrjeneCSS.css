@@ -1,0 +1,46 @@
+
+p{color:green;
+	background-color:blue;
+	margin-left:40px;
+	margin-right:40px;
+	font-family:arial;
+	font-size:35px;}
+h1{}	
+*{color:red;
+	background-color:black;
+	margin-left:40px;
+	margin-right:40px;
+	font-family:arial;
+	font-size:25px;}
+#p1{color:pink;
+	background-color:gray;
+	margin-left:40px;
+	margin-right:40px;
+	font-family:arial;
+	font-size:35px;}
+.p1{color:orange;
+	background-color:yellow;
+	margin-left:40px;
+	margin-right:40px;
+	font-family:arial;
+	font-size:35px;}
+ol>li	{font-size:25px;
+		color:white}	
+ol>#li1	{font-size:25px;}
+#ol1>#li1{font-size:25px;}
+div{border:1px solid white;
+	width:1000px;
+	height:1200px}
+#div1{border:1px solid white;
+	width:500px;
+	height:400px}
+div li{color:blue;}
+#p4{color:blue;}	
+/* kemi 3 lloje ngjyrash:
+	RGB,RGBA DHE HEX.
+RGB	p{color:rgb*(117,84,20)}
+RGBA	p{background-color:rgba(117,84,20,0.4)}
+HEX    p{color:#337AAC}*/
+	/*css ndahet ne dy lloje ne SELECTION DHE ne DECLARATION dhe selection ndahet ne 3 lloje me"*-universalection" ku i qaset te ghitha tageve te HTML dhe ne "TYPESELECTION" ku style i behej te ghitha tageve te njejta.dhe kemi edhe me id dhe class */
+	/*pastaj kemi edhe CHILD SELECTOR KU senohet si"ol>li{}" por kjo njihet edhe si njeh vetem nga nje femij ose tag ner nje*/
+	/*dhe DESCENDENT SELECTOR ku mund tia te gjithave pas tjetrave edhe brenda divave */

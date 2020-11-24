@@ -1,0 +1,12 @@
+#img1{width:600px;
+	  height:600px;
+	  object-fit:fill;}
+#img2{width:600px;
+	  height:600px;
+	  object-fit:contain;}
+#img3{width:600px;
+	 height:600px;
+	 object-fit:cover;}
+#img4{width:600px;
+	 height:600px;
+	 object-fit:scale-down;}

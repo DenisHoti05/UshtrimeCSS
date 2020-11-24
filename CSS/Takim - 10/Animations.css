@@ -1,0 +1,20 @@
+#div1{width:200px;
+	  height:200px;
+	  background:red;
+	  position:relative;
+	  animation-name:div1;
+	  animation-duration:7s;
+	  animation-iteration-count:infinite
+								/*5s*/;
+	  animation-direction:alternate-reverse;
+						  /*normal*/
+						  /*reverse*/
+						  /*alternate*/
+						  }
+@keyframes div1{
+	0%{background:red;top:0px;left:0px}
+	25%{background:green;top:500px;left:0px}
+	50%{background:blue;top:500px;left:500px}
+	75%{background:yellow;top:0px;left:500px}
+	100%{background:red;top:0px;left:0px}
+}

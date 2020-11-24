@@ -1,0 +1,17 @@
+/*#p10{background-image:url("img1.jpg");
+	 width:300px;
+	 height:300px;}*/
+body{background-image:url("img1.jpg");
+	/* background-size:contain;* me keto ne ia caktojme madhesin/
+	/* background-size:cover;*/
+	/* background-size:500px;*/
+	 background-size:50%;
+	/* background-repeat:repeat-x; /*me kete fotoja na perseritet vetem horizontalisht*/
+	/* background-repeat:repeat-y; /*me kete fotoja na perseritet vetem vertikalisht*/
+	background-repeat:no-repeat; /*me kete fotoja nuk na perseritet*/
+	/*background-position:center;   me kete ne ia caktojme pozicionin*/
+	/*background-position:right;*/
+	/*background-position:left;*/
+	/*background-position:right-top;*/
+	background-position:500px 100px;}
+	 

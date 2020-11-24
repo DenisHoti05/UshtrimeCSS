@@ -1,0 +1,47 @@
+							FONT
+p{font-family:arial;
+  font-size:2vw;
+  font-style:italic;
+  font-weight:bold;
+  font-family: 'Caveat', cursive;}
+  #p1{font-family:arial;
+  font-size:5%;
+  font-style:normal;
+  font-weight:bolder;
+  font-family: 'Baskervville', serif;
+}
+  #p2{font-family:arial;
+  font-size:vw;/*"vw-viewport" kjo ben qe te zmadhohet aq sa eshte i madh ekrani*/
+  font-style:italic;
+  font-weight:900;
+  font-family: 'Open Sans Condensed', sans-serif;}
+  #p4{font-family:arial;
+  font-size:2vw;
+  font-style:normal;
+  font-weight:bolder;
+  font-variant:small-caps;
+  font-family:'Roboto', sans-serif;}
+  /*shorthandi="font:itlaic small-caps bold 20vw arial" */
+							TEXT
+#p6{color:#FFFF00;
+	width:300px
+	text-align:justify;/*JUSTIFY mundeson renditjen e tekstin ne mes por duke e renditur ate*/
+			    /*left*/
+			   /*right*/
+			   /*center*/
+	direction:rtl;
+			  /*ltr*/
+	text-indent:20px;/*mundeson qe fillimin e tekstit ta zhvendos pak me larg se te tjerat*/
+				/*1cm*/
+	text-decoration:overline;
+					/*line-through*/
+					/*underline*/
+					/*none*/}
+#p10{letter-spacing:20px;
+	 word-spacing:30px;
+	 white-space:pre;
+	 text-transform:capitalize;
+					/*uppercasee*/
+					/*lowercase*/
+					/*none*/
+	text-shadow:5px 2px 3px red;/*na mundeson qe ta hijezojme tekstin*/}				

@@ -1,0 +1,11 @@
+#div1{background-color:red;
+	  max-width:1200px;
+	  min-width:600px;
+	  max-height:500px;
+	  min-height:150px;}
+#div2{background-color:blue;
+	  max-width:1200px;
+	  min-width:600px;
+	  max-height:500px;
+	  min-height:150px;
+	  overflow:auto;}

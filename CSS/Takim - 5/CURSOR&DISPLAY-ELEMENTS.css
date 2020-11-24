@@ -1,0 +1,27 @@
+											/*CURSOR*/
+#p1{cursor:auto}
+#p2{cursor:wait}
+#p3{cursor:crosshair}
+#p4{cursor:move}
+#p5{cursor:default}
+#p6{cursor:pointer}
+#p7{cursor:zoom-in}
+#p8{cursor:zoom-out;}
+#p9{cursor:text}
+#p10{cursor:help}
+#p11{cursor:cell}
+#p12{cursor:no-drop}
+#p13{cursor:none}
+#p14{cursor:row-resize;}
+#p15{cursor:col-resize}
+#p16{cursor:e-resize;}
+#p17{cursor:n-resize;}
+#p18{cursor:nw-resize;}
+#p19{cursor:sw-resize;}
+										/*DISPLAY*/
+#p20{display:inline;}
+#p21{display:inline;}
+#a1{display:block;}
+#a2{display:block;}
+#p22{;}
+#p23{}
